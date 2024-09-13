@@ -34,6 +34,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
+
+# Set the permalink to pretty URLs (optional but recommended)
+permalink: pretty
+
+# Exclude posts from the home page
+paginate: false
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
