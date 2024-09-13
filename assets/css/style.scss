@@ -5,3 +5,40 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+
+/* Floating Contact Box */
+.contact-box {
+    position: fixed; /* Keeps the box fixed in place when scrolling */
+    top: 20%; /* Adjust this value to change vertical positioning */
+    right: 20px; /* Distance from the right edge */
+    width: 200px; /* Width of the contact box */
+    background-color: #f9f9f9; /* Background color */
+    border: 1px solid #ddd; /* Optional border */
+    padding: 15px; /* Padding inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for effect */
+    z-index: 1000; /* Ensures it stays above other elements */
+}
+
+.contact-box h3 {
+    margin-top: 0; /* Remove margin for the heading */
+    font-size: 1.2em;
+}
+
+.contact-box ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.contact-box ul li {
+    margin-bottom: 10px; /* Space between items */
+}
+
+.contact-box ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Link color */
+}
+
+.contact-box ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
