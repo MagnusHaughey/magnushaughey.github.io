@@ -7,6 +7,4 @@ title: Home
 class: homepage
 ---
 
-# Welcome to My Awesome Site!
-
 This is a static homepage. You can add more content here.
