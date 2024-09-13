@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+# Welcome to My Awesome Site!
+
+This is a static homepage. You can add more content here.
