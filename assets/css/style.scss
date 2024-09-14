@@ -52,3 +52,18 @@
 .contact-box ul li a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+
+
+/* Target the header only on the homepage */
+.home header {
+    color: white;
+}
+
+/* Target links within the header */
+.home header a {
+    color: white;
+}
+
+.home header a:hover {
+    color: #cccccc; /* Light gray for hover state */
+}
