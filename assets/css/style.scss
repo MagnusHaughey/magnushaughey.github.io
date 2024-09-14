@@ -67,3 +67,30 @@
 .home header a:hover {
     color: #cccccc; /* Light gray for hover state */
 }
+
+
+
+
+/* Style for the floating box on the left side */
+.left-box {
+    position: fixed; /* Keep the box fixed as you scroll */
+    top: 20%; /* Adjust this to control the vertical position */
+    left: 400px; /* Distance from the left edge */
+    width: 600px; /* Width of the box */
+    background-color: rgba(1 , 1 , 1 , 0.5); /* Background color */
+    border: 0px solid #ddd; /* Optional border */
+    padding: 30px; /* Padding inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0); /* Add a shadow for effect */
+    z-index: 1000; /* Ensures it stays above other elements */
+}
+
+.left-box h3 {
+    margin-top: 0; /* Remove margin for the heading */
+    font-size: 2em;
+}
+
+.left-box p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
