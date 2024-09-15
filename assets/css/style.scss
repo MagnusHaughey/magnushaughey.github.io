@@ -10,6 +10,7 @@
 /* Floating Contact Box */
 .contact-box {
     position: fixed; /* Keeps the box fixed in place when scrolling */
+    border-radius: 5px;
     top: 20%; /* Adjust this value to change vertical positioning */
     right: 250px; /* Distance from the right edge */
     width: 350px; /* Width of the contact box */
@@ -74,6 +75,7 @@
 /* Style for the floating box on the left side */
 .left-box {
     position: fixed; /* Keep the box fixed as you scroll */
+    border-radius: 5px;
     top: 20%; /* Adjust this to control the vertical position */
     left: 300px; /* Distance from the left edge */
     width: 400px; /* Width of the box */
