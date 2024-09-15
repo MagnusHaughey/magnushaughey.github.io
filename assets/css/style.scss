@@ -110,12 +110,14 @@
 
 /* Style for the publication image */
 .publication-image {
-    width: 150px; /* Adjust width as needed */
-    height: auto;
+    width: 150px;  /* Fixed width */
+    height: 150px; /* Fixed height */
+    object-fit: cover; /* Ensures the image scales to fill the box while keeping aspect ratio */
     margin-right: 20px; /* Space between image and text */
     border-radius: 5px; /* Optional: rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for effect */
 }
+
 
 /* Style for the publication details */
 .publication-details {
