@@ -47,6 +47,14 @@ collections:
   publications:
     output: true
 
+# Set cross links in navigation bar
+nav:
+  - Home: /
+  - Profile: /profile/
+  - Publications: /publications/
+  - Google Scholar: "https://scholar.google.com/citations?user=VS1xsawAAAAJ&hl=en"
+
+
 
 
 
