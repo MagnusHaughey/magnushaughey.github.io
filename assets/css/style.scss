@@ -55,16 +55,16 @@
 
 
 /* Target the header only on the homepage */
-.home header {
+.home #site-header {
     color: white;
 }
 
 /* Target links within the header */
-.home header a {
+.home #site-header a {
     color: white;
 }
 
-.home header a:hover {
+.home #site-header a:hover {
     color: #cccccc; /* Light gray for hover state */
 }
 
