@@ -1,6 +1,6 @@
 ---
 title: "First passage time analysis of spatial mutation patterns reveals sub-clonal evolutionary dynamics in colorectal cancer"
-authors: "Magnus Haughey & Aleix Bassolas, Sandro Sousa, Ann-Marie Baker, Trevor A Graham, Vincenzo Nicosia, Weini Huang"
+authors: "<b>Magnus Haughey</b> & Aleix Bassolas, Sandro Sousa, Ann-Marie Baker, Trevor A Graham, Vincenzo Nicosia, Weini Huang"
 journal: "PLOS Computational Biology"
 year: 2023
 doi: "https://doi.org/10.1371/journal.pcbi.1010952"
