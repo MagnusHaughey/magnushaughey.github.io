@@ -103,8 +103,9 @@
 /* Style for each publication entry */
 .publication {
     display: flex; /* Align the image and text horizontally */
-    margin-bottom: 20px; /* Add space between publications */
-    border-bottom: 1px solid #e0e0e0; /* Optional: border to separate entries */
+    align-items: flex-start; /* Align the top of the image and text */
+    margin-bottom: 20px; /* Space between publication entries */
+    border-bottom: 1px solid #e0e0e0; /* Optional border */
     padding-bottom: 15px;
 }
 
