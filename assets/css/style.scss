@@ -97,3 +97,58 @@
     margin-bottom: 10px;
 }
 
+
+
+
+/* Style for each publication entry */
+.publication {
+    display: flex; /* Align the image and text horizontally */
+    margin-bottom: 20px; /* Add space between publications */
+    border-bottom: 1px solid #e0e0e0; /* Optional: border to separate entries */
+    padding-bottom: 15px;
+}
+
+/* Style for the publication image */
+.publication-image {
+    width: 150px; /* Adjust width as needed */
+    height: auto;
+    margin-right: 20px; /* Space between image and text */
+    border-radius: 5px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for effect */
+}
+
+/* Style for the publication details */
+.publication-details {
+    flex: 1; /* Allow text to fill remaining space */
+}
+
+/* Style for the publication title */
+.publication-title {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+/* Style for the authors */
+.publication-authors {
+    font-style: italic;
+    color: #555;
+    margin: 0 0 5px 0;
+}
+
+/* Style for the journal and year */
+.publication-journal {
+    font-size: 1em;
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+/* Style for the DOI link */
+.publication-doi a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.publication-doi a:hover {
+    text-decoration: underline;
+}
+
