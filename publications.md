@@ -4,8 +4,6 @@ title: Publications
 permalink: /publications/
 ---
 
-<h1>Publications</h1>
-
 {% assign sorted_publications = site.publications | sort: "year" | reverse %}
 <div class="publications-list">
   {% for publication in sorted_publications %}
