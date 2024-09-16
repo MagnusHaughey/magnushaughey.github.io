@@ -39,18 +39,15 @@
 /* Style for the button */
 .btn-publications {
     display: inline-block;
-    padding: 10px 20px;
-    // background-color: rgba(30 , 0 , 181 , 1); /* Button background color */
+    padding: 10px;
+    width: 200px; /* Set the width of the box */
+    height: 50px; /* Set the height of the box */
     color: white; /* Button text color */
     text-decoration: none;
-    border-radius: 1px; /* Rounded corners */
+    border-radius: 10px; /* Rounded corners */
     font-size: 1.2em;
     font-style: italic;
     transition: background-color 0.3s ease;
-
-    // /* Add a border around the button */
-    // border: 2px solid #004080; /* Dark blue border */
-    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for a 3D effect */
 }
 
 /* Hover effect for the button */
@@ -67,7 +64,6 @@
     height: 50px; /* Set the height of the box */
     border: 2px solid #004080; /* Box border */
     border-radius: 10px; /* Rounded corners for the box */
-    margin-top: 10px;
     background-color: rgba(184, 234, 255 , 1); /* Light blue background */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for the box */
 }
