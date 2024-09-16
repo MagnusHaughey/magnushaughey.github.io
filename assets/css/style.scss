@@ -119,6 +119,8 @@
     border-radius: 5px; /* Optional: rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for effect */
     vertical-align: top;
+    position: relative; /* Set the image position to relative */
+    top: 20px; /* Move the image down by 10px, adjust as needed */
 }
 
 
