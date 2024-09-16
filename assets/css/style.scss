@@ -115,7 +115,7 @@
     width: 150px;  /* Fixed width */
     height: 150px; /* Fixed height */
     object-fit: cover; /* Ensures the image scales to fill the box while keeping aspect ratio */
-    margin-right: 20px; /* Space between image and text */
+    margin-right: 50px; /* Space between image and text */
     border-radius: 5px; /* Optional: rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for effect */
     vertical-align: top;
@@ -167,11 +167,6 @@ body.home .site-nav a {
 }
 
 
-/* Change the background color of the navigation bar */
-.site-header {
-    background-color: #333; /* Replace #333 with the color of your choice */
-}
-
 body.home .site-nav a:hover {
     color: #f0f0f0; /* Change to a lighter shade of white or another color */
 }
@@ -179,4 +174,8 @@ body.home .site-nav a:hover {
 /* Change the background color of the navigation bar */
 .site-header {
     background-color: rgba(207, 207, 207 , 0.4); /* Replace #333 with the color of your choice */
+}
+
+.site-header .site-nav a {
+    color: white; /* Change link text color */
 }
