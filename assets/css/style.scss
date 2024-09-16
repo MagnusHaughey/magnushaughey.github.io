@@ -161,3 +161,11 @@
     text-decoration: underline;
 }
 
+/* Make navigation bar text white on the home page */
+body.home .site-nav a {
+    color: white;
+}
+
+body.home .site-nav a:hover {
+    color: #f0f0f0; /* Change to a lighter shade of white or another color */
+}
