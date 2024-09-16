@@ -183,3 +183,24 @@ body.home .site-nav a:hover {
 .site-header .site-nav a {
     color: white; /* Change link text color */
 }
+
+
+
+/* Style for the button */
+.btn-publications {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.btn-publications:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
