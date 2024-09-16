@@ -166,6 +166,10 @@ body.home .site-nav a {
     color: white;
 }
 
+/* Make the site title white on the homepage only */
+body.home .site-title {
+    color: white;
+}
 
 body.home .site-nav a:hover {
     color: #f0f0f0; /* Change to a lighter shade of white or another color */
@@ -176,6 +180,6 @@ body.home .site-nav a:hover {
     background-color: rgba(207, 207, 207 , 0.4); /* Replace #333 with the color of your choice */
 }
 
-.site-header .site-nav a {
-    color: white; /* Change link text color */
-}
+// .site-header .site-nav a {
+//     color: white; /* Change link text color */
+// }
