@@ -132,8 +132,8 @@
 
 
 /* Make the site title white on the homepage only */
-body.home .site-title {
-    color: white;
+body.home .site-title a {
+    color: white !important;
 }
 
 body.home .site-nav a:hover {
