@@ -111,6 +111,7 @@
 
 /* Style for the publication image */
 .publication-image {
+    display: inline-block;
     width: 150px;  /* Fixed width */
     height: 150px; /* Fixed height */
     object-fit: cover; /* Ensures the image scales to fill the box while keeping aspect ratio */
