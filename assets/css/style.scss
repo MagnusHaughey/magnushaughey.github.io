@@ -55,19 +55,19 @@
 }
 
 
-/* Target the header only on the homepage */
-.home #site-header {
-    color: white;
-}
+// /* Target the header only on the homepage */
+// .home #site-header {
+//     color: white;
+// }
 
-/* Target links within the header */
-.home #site-header a {
-    color: white;
-}
+// /* Target links within the header */
+// .home #site-header a {
+//     color: white;
+// }
 
-.home #site-header a:hover {
-    color: #cccccc; /* Light gray for hover state */
-}
+// .home #site-header a:hover {
+//     color: #cccccc; /* Light gray for hover state */
+// }
 
 
 
@@ -166,6 +166,17 @@ body.home .site-nav a {
     color: white;
 }
 
+
+/* Change the background color of the navigation bar */
+.site-header {
+    background-color: #333; /* Replace #333 with the color of your choice */
+}
+
 body.home .site-nav a:hover {
     color: #f0f0f0; /* Change to a lighter shade of white or another color */
+}
+
+/* Change the background color of the navigation bar */
+.site-header {
+    background-color: rgba(207, 207, 207 , 0.4); /* Replace #333 with the color of your choice */
 }
