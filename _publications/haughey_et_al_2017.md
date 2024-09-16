@@ -1,5 +1,5 @@
 ---
-title: "NOVEL MCP-BASED ELECTRON SOURCE STUDIES"
+title: "Novel MCP-Based Electron Source Studies"
 authors: "<b>Magnus Haughey</b>, Vladimir Shiltsev, Giulio Stancari"
 journal: "arXiv"
 year: 2017
