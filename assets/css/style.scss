@@ -128,7 +128,7 @@
 
 
 /* Make the site title white on the homepage only */
-body.home .site-title a {
+.home .site-title a {
     color: white !important;
 }
 
@@ -141,14 +141,9 @@ body.home .site-nav a:hover {
     background-color: rgba(207, 207, 207 , 0.4); /* Replace #333 with the color of your choice */
 }
 
-.home .site-header .site-nav a {
+.site-header .site-nav a {
     color: white; /* Change link text color */
 }
-
-.page .site-header .site-nav a {
-    color: black; /* Change link text color */
-}
-
 
 
 
