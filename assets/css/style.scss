@@ -141,9 +141,20 @@ body.home .site-nav a:hover {
     background-color: rgba(207, 207, 207 , 0.4); /* Replace #333 with the color of your choice */
 }
 
-.site-header .site-nav a {
-    color: white; /* Change link text color */
+// .site-header .site-nav a {
+//     color: white; /* Change link text color */
+// }
+
+/* Make the navigation links white on the home page */
+body.home .navbar a {
+    color: white !important;
 }
+
+/* Make the navigation links black on all other pages */
+.navbar a {
+    color: black !important;
+}
+
 
 
 
