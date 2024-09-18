@@ -7,7 +7,7 @@ order: 1
 
 <div class="profile-container">
   <div class="profile-image">
-    <img src="/path/to/your/profile_image.png" alt="">
+    <img src="/assets/images/profile_image.png" alt="">
   </div>
   <div class="profile-text">
     <p>
