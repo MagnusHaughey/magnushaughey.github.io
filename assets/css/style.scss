@@ -227,3 +227,57 @@ body.home .site-nav a:hover {
 .publication-doi a:hover {
     text-decoration: underline;
 }
+
+
+
+
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+
+/* Container holding the image and text */
+.profile-container {
+  display: flex;
+  align-items: flex-start; /* Aligns items at the top */
+  margin: 20px; /* Adds some space around the container */
+}
+
+/* Style for the image on the left */
+.profile-image img {
+  width: 150px; /* Set the width of the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between the image and the text */
+  border-radius: 50%; /* Optional: make the image round (for profile picture) */
+}
+
+/* Style for the text on the right */
+.profile-text {
+  max-width: 600px; /* Optional: limit the width of the text block */
+}
+
+.profile-text h2 {
+  margin-top: 0; /* Remove the top margin from the heading */
+}
+
+.profile-text p {
+  line-height: 1.6; /* Adjust the line height for better readability */
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-image img {
+    margin-right: 0;
+    margin-bottom: 20px; /* Add space below the image when stacked */
+  }
+
+  .profile-text {
+    text-align: center; /* Center the text on small screens */
+  }
+}
+
