@@ -40,6 +40,9 @@
 .btn-publications {
     display: inline-block;
     padding: 0px;
+    text-align: center; /* Center text horizontally */
+    vertical-align: middle; /* Center text vertically */
+    line-height: 1.5; /* Adjust for better vertical centering */
     width: 175px; /* Set the width of the box */
     height: 50px; /* Set the height of the box */
     color: white; /* Button text color */
