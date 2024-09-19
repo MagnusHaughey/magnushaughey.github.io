@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Profile
 permalink: /profile/
 order: 1
 ---
 
 <div class="profile-container">
+  <h1 class="profile-title">Profile</h1>
   <div class="profile-image">
     <img src="/assets/images/profile_image.png" alt="">
   </div>
