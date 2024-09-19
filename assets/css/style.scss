@@ -42,7 +42,7 @@
     padding: 0px;
     text-align: center; /* Center text horizontally */
     vertical-align: middle; /* Center text vertically */
-    line-height: 2.5; /* Adjust for better vertical centering */
+    line-height: 1.8; /* Adjust for better vertical centering */
     width: 200px; /* Set the width of the box */
     height: 30px; /* Set the height of the box */
     color: white; /* Button text color */
@@ -50,7 +50,7 @@
     border-radius: 50px; /* Rounded corners */
     font-size: 1.2em;
     //font-style: italic;
-    transition: background-color 0.1s ease;
+    transition: background-color 0.2s ease;
 }
 
 /* Hover effect for the button */
@@ -252,7 +252,7 @@ body.home .site-nav a:hover {
 
 /* Style for the page title */
 .profile-title {
-  margin-left: -1000px; /* Adjust the margin-left value to align with the text */
+  margin-left: -500px; /* Adjust the margin-left value to align with the text */
   font-size: 2em; /* Optional: adjust the font size */
   margin-bottom: 20px; /* Space between the title and the image/text */
 }
