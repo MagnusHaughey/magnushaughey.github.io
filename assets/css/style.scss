@@ -42,7 +42,7 @@
     padding: 0px;
     text-align: center; /* Center text horizontally */
     vertical-align: middle; /* Center text vertically */
-    line-height: 1.5; /* Adjust for better vertical centering */
+    line-height: 5; /* Adjust for better vertical centering */
     width: 175px; /* Set the width of the box */
     height: 50px; /* Set the height of the box */
     color: white; /* Button text color */
@@ -50,7 +50,7 @@
     border-radius: 50px; /* Rounded corners */
     font-size: 1.2em;
     font-style: italic;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.1s ease;
 }
 
 /* Hover effect for the button */
