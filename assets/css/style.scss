@@ -52,19 +52,19 @@
     text-decoration: none;
     border-radius: 50px; /* Rounded corners */
     font-size: 1.2em;
-    //font-style: italic;
-    transition: background-color 0.2s ease;
+    background-image: linear-gradient(45deg, #ff7f50, #ff4500);
+    background-size: 0%; /* Initially, the background image is "hidden" */
+    transition: background-size 0.5s ease; /* Transition for background size */
 }
 
 /* Hover effect for the button */
 .btn-publications:hover {
-    background-image: linear-gradient(45deg, #ff7f50, #ff4500); /* Gradient on hover */
+   // background-image: linear-gradient(45deg, #ff7f50, #ff4500); /* Gradient on hover */
     //background-color: rgba(3 , 11 , 252 , 1); /* Darker blue on hover */
     border-color: rgba(3 , 11 , 252 , 0); /* Change border color on hover */
     text-decoration: none;
     color: white; /* Button text color */
-    transition: background-image 0.2s ease;
-    
+    background-size: 100%; /* On hover, the background image expands */
 }
 
 
