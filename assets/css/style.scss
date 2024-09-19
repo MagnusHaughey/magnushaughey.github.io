@@ -249,10 +249,12 @@ body.home .site-nav a:hover {
 
 /* Style for the image on the left */
 .profile-image img {
-  width: 1000px; /* Set the width of the image */
+  width: 1500px; /* Set the width of the image */
   height: auto; /* Maintain aspect ratio */
-  margin-right: 20px; /* Space between the image and the text */
-  border-radius: 50%; /* Optional: make the image round (for profile picture) */
+  margin-right: 200px; /* Space between the image and the text */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Adds shadow around the image */
+  border-radius: 50%; /* Optional: round the image (if it's a profile picture) */
+  margin-left: -30px; /* Move the image to the left */
 }
 
 /* Style for the text on the right */
