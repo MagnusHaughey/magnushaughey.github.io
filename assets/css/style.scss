@@ -247,6 +247,13 @@ body.home .site-nav a:hover {
   margin: 20px; /* Adds some space around the container */
 }
 
+/* Style for the page title */
+.profile-title {
+  margin-left: 200px; /* Adjust the margin-left value to align with the text */
+  font-size: 2em; /* Optional: adjust the font size */
+  margin-bottom: 20px; /* Space between the title and the image/text */
+}
+
 /* Style for the image on the left */
 .profile-image img {
   width: 1500px; /* Set the width of the image */
