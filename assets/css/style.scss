@@ -42,7 +42,7 @@
     padding: 0px;
     text-align: center; /* Center text horizontally */
     vertical-align: middle; /* Center text vertically */
-    line-height: 1.8; /* Adjust for better vertical centering */
+    line-height: 1.6; /* Adjust for better vertical centering */
     width: 200px; /* Set the width of the box */
     height: 30px; /* Set the height of the box */
     color: white; /* Button text color */
@@ -252,14 +252,14 @@ body.home .site-nav a:hover {
 
 /* Style for the page title */
 .profile-title {
-  margin-left: -500px; /* Adjust the margin-left value to align with the text */
+  margin-left: -200px; /* Adjust the margin-left value to align with the text */
   font-size: 2em; /* Optional: adjust the font size */
   margin-bottom: 20px; /* Space between the title and the image/text */
 }
 
 /* Style for the image on the left */
 .profile-image img {
-  width: 500px; /* Set the width of the image */
+  width: 250px; /* Set the width of the image */
   height: auto; /* Maintain aspect ratio */
   margin-right: 200px; /* Space between the image and the text */
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Adds shadow around the image */
