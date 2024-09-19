@@ -47,7 +47,7 @@
     line-height: 1.6; /* Adjust for better vertical centering */
     width: 200px; /* Set the width of the box */
     height: 30px; /* Set the height of the box */
-    color: white; /* Button text color */
+    color: white !important; /* Button text color */
     text-decoration: none;
     border-radius: 50px; /* Rounded corners */
     font-size: 1.2em;
@@ -71,10 +71,10 @@
     padding: 0px;
     width: 200px; /* Set the width of the box */
     height: 30px; /* Set the height of the box */
-    border: 2px solid rgba(3 , 11 , 252 , 1); /* Box border */
+    border: 2px solid white; /* Box border */
     border-radius: 50px; /* Rounded corners for the box */
     background-color: rgba(0 , 0 , 0 , 0); /* Light blue background */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0); /* Optional shadow for the box */
 }
 
 
