@@ -42,12 +42,12 @@
     padding: 0px;
     text-align: center; /* Center text horizontally */
     vertical-align: middle; /* Center text vertically */
-    //line-height: 1.5; /* Adjust for better vertical centering */
+    line-height: 1.5; /* Adjust for better vertical centering */
     width: 175px; /* Set the width of the box */
     height: 50px; /* Set the height of the box */
     color: white; /* Button text color */
     text-decoration: none;
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 50px; /* Rounded corners */
     font-size: 1.2em;
     font-style: italic;
     transition: background-color 0.3s ease;
@@ -55,8 +55,8 @@
 
 /* Hover effect for the button */
 .btn-publications:hover {
-    background-color: #4ca8cf; /* Darker blue on hover */
-    border-color: #003366; /* Change border color on hover */
+    background-color: rgba(3 , 11 , 252 , 1); /* Darker blue on hover */
+    border-color: rgba(3 , 11 , 252 , 1); /* Change border color on hover */
 }
 
 
@@ -65,9 +65,9 @@
     padding: 0px;
     width: 175px; /* Set the width of the box */
     height: 50px; /* Set the height of the box */
-    border: 2px solid #004080; /* Box border */
-    border-radius: 10px; /* Rounded corners for the box */
-    background-color: rgba(184, 234, 255 , 1); /* Light blue background */
+    border: 2px solid rgba(3 , 11 , 252 , 1); /* Box border */
+    border-radius: 50px; /* Rounded corners for the box */
+    background-color: rgba(0 , 0 , 0 , 0); /* Light blue background */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for the box */
 }
 
