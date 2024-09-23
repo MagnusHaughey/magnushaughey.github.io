@@ -5,11 +5,11 @@ order: 1
 ---
 
 <div class="profile-container">
-  <h1 class="profile-title">Profile</h1>
   <div class="profile-image">
     <img src="/assets/images/profile_image.png" alt="">
   </div>
   <div class="profile-text">
+    <h1>Profile</h1>
     <p>
      I am a postgraduate researcher in computational biology at Queen Mary University of London and Barts Cancer Institute specialising in the study of cancer evolution. My research lies at the intersection of mathematics and biology, incorporating computer simulations, statistics, large-scale data analysis and image processing to study the evolution of cancer, and in particular the impact of early cancer evolution on tumourigenesis, the development of intratumour heterogeneity, and treatment response. My current research focusses on deciphering the role of extrachromosomal DNA in driving cancer progression, oncogene amplification and treatment resistance. I am experienced in the use of programming languages such as C/C++, Python, Julia, R, HTML and BASH.<br><br>
 
