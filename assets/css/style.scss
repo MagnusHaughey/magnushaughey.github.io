@@ -325,3 +325,12 @@ body.home .site-nav a:hover {
   }
 }
 
+
+
+.fa.fa-twitter{
+	font-family:sans-serif;
+}
+.fa.fa-twitter::before{
+	content:"𝕏";
+	font-size:1.2em;
+}
