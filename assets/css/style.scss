@@ -334,3 +334,16 @@ body.home .site-nav a:hover {
 	content:"𝕏";
 	font-size:1.2em;
 }
+
+
+
+.profile-page,
+.publications-page {
+  background-color: #2e2e2e;
+  color: white;
+}
+
+.profile-page a,
+.publications-page a {
+  color: #80b3ff; /* Optional: light link color */
+}
