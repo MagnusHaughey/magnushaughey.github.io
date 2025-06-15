@@ -337,9 +337,9 @@ body.home .site-nav a:hover {
 
 
 
-// /* Apply to profile and publications URLs */
-// body[data-url="/profile/"],
-// body[data-url="/publications/"] {
-//   background-color: #2e2e2e;
-//   color: #fff;
-// }
+/* Apply to profile and publications URLs */
+body[data-url="/profile/"],
+body[data-url="/publications/"] {
+  background-color: #2e2e2e;
+  color: #fff;
+}
