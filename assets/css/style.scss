@@ -245,7 +245,7 @@ header.site-header .site-title {
 .nav-box a::after {
   content: '';
   position: absolute;
-  bottom: -3px; /* space below text */
+  bottom: 1px; /* space below text */
   left: 50%;
   transform: translateX(-50%) scaleX(0);
   transform-origin: center;
