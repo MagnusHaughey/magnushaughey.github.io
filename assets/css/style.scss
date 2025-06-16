@@ -237,9 +237,26 @@ header.site-header .site-title {
   background-color: #808080;
 }
 
-.nav-box a:hover {
-  //color: #333;              /* darker grey on hover (optional) */
-  text-decoration: underline;
+// .nav-box a:hover {
+//   //color: #333;              /* darker grey on hover (optional) */
+//   text-decoration: underline;
+// }
+
+.nav-box a::after {
+  content: '';
+  position: absolute;
+  bottom: -3px; /* space below text */
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  width: 100%;
+  height: 2px;
+  background-color: #454545;
+  transition: transform 0.3s ease;
+}
+
+.nav-box a:hover::after {
+  transform: translateX(-50%) scaleX(1);
 }
 
 
