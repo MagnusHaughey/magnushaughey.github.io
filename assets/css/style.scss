@@ -194,9 +194,6 @@ body.home .site-nav a:hover {
   border: 2px inset #ccc;
   border-radius: 30px;
   background-color: transparent;
-  margin-left: 5rem;  /* Pushes nav box further from title */
-  // box-shadow: inset 2px 2px 5px rgba(255,255,255,0.2),
-  //             inset -2px -2px 5px rgba(0,0,0,0.2);
 }
 
 .nav-box a {
@@ -210,12 +207,10 @@ body.home .site-nav a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 2rem; /* add space between title and nav */
+  flex-wrap: nowrap; /* prevents wrapping */
 }
 
-
-.site-title {
-  margin-right: 2rem; /* Pushes nav box further right */
-}
 
 
 
