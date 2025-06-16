@@ -192,7 +192,7 @@ body.home .site-nav a:hover {
   display: inline-block;
   padding: 0px 10px 0px 10px;
   border: 2px inset #ccc;
-  border-radius: 20px;
+  border-radius: 30px;
   background-color: transparent;
   // box-shadow: inset 2px 2px 5px rgba(255,255,255,0.2),
   //             inset -2px -2px 5px rgba(0,0,0,0.2);
@@ -209,6 +209,7 @@ body.home .site-nav a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 5rem;
 }
 
 
