@@ -250,14 +250,14 @@ header.site-header .site-title {
   left: 50%;
   transform: translateX(-50%) scaleX(0);
   transform-origin: center;
-  width: 100%;
+  width: 75%;
   height: 1px;
   background-color: #454545;
   transition: transform 0.3s ease;
 }
 
 .nav-box a:hover::after {
-  transform: translateX(-50%) scaleX(0.8);
+  transform: translateX(-50%) scaleX(1);
 }
 
 
