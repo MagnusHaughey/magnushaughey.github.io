@@ -194,9 +194,6 @@ body.home .site-nav a:hover {
   border: 2px inset #ccc;
   border-radius: 30px;
   background-color: transparent;
-  display: flex;
-  gap: 1.2rem; /* spacing between nav links */
-  align-items: center;
 }
 
 .nav-box a {
@@ -206,29 +203,24 @@ body.home .site-nav a:hover {
   //font-weight: bold;
 }
 
-
-
-/* Wrapper uses flexbox */
 .site-header .wrapper {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   flex-wrap: nowrap;
   width: 100%;
 }
 
-/* Spacer grows to fill available space */
-.flex-spacer {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 4rem; /* Adjust this to increase gap */
-  min-width: 2rem;  /* Optional: prevents collapsing to nothing */
+.nav-box {
+  margin-left: 6rem; /* control spacing here */
+  display: flex;
+  gap: 1.2rem;
 }
 
-
-/* Optional: style title and nav alignment */
 .site-title {
   white-space: nowrap;
 }
+
 
 
 
