@@ -197,11 +197,16 @@ body.home .site-nav a:hover {
 }
 
 .nav-box a {
-  color: inherit;
-  text-decoration: none;
-  margin: 0 25px;
-  //font-weight: bold;
+  color: #555;              /* medium grey font */
+  text-decoration: none;    /* no underline by default */
+  transition: color 0.3s, text-decoration 0.3s;
 }
+
+.nav-box a:hover {
+  color: #333;              /* darker grey on hover (optional) */
+  text-decoration: underline;
+}
+
 
 .site-header .wrapper {
   display: flex;
