@@ -211,6 +211,8 @@ body.home .site-nav a:hover {
 
 .flex-spacer {
   flex-grow: 1;
+  width: 80px; 
+  flex-shrink: 0;
 }
 
 
