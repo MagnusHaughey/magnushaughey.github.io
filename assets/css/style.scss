@@ -205,8 +205,12 @@ body.home .site-nav a:hover {
 
 .site-header .wrapper {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: nowrap;
   align-items: center;
+}
+
+.flex-spacer {
+  flex-grow: 1;
 }
 
 
