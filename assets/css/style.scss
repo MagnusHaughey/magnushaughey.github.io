@@ -199,14 +199,21 @@ body.home .site-nav a:hover {
 .nav-box a {
   color: #555;              /* medium grey font */
   text-decoration: none;    /* no underline by default */
-  margin: 0 25px;
+  margin: 0 12.5px;
   transition: color 0.3s, text-decoration 0.3s;
   padding: 0 12.5px;         /* spacing around each link */
-  border-left: 1px solid #ccc;
+  border-left: 1px solid #404040;
 }
 
-.nav-box a:first-child {
-  border-left: none;         /* remove divider before first link */
+/* Add vertical divider using ::before */
+.nav-box a:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 30%;              /* adjust to position vertically */
+  height: 40%;           /* shorter than full height */
+  width: 1px;
+  background-color: #404040;
 }
 
 .nav-box a:hover {
