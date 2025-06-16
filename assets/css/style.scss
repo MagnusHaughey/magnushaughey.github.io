@@ -274,6 +274,10 @@ header.site-header .site-title {
     padding-bottom: 15px;
 }
 
+.publication:last-child {
+  border-bottom: none;
+}
+
 /* Style for the publication image */
 .publication-image {
     display: inline-block;
