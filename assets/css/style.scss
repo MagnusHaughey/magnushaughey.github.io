@@ -202,7 +202,7 @@ body.home .site-nav a:hover {
   text-decoration: none;    /* no underline by default */
   //margin: 0 12.5px;
   transition: color 0.3s, text-decoration 0.3s;
-  padding: 30px 20px;         /* spacing around each link */
+  padding: 0px 20px 0px 20px;         /* spacing around each link */
   // border-left: 1px solid #404040;
 }
 
@@ -211,8 +211,8 @@ body.home .site-nav a:hover {
   content: "";
   position: absolute;
   left: 0;
-  top: 30%;              /* adjust to position vertically */
-  height: 40%;           /* shorter than full height */
+  top: 20%;              /* adjust to position vertically */
+  height: 60%;           /* shorter than full height */
   width: 1px;
   background-color: #404040;
 }
