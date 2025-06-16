@@ -228,16 +228,16 @@ header.site-header .site-title {
 //   padding-right: 20px; /* Adjust value as needed */
 // }
 
-/* Add vertical divider using ::before */
-.nav-box a:not(:first-child)::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 30%;              /* adjust to position vertically */
-  height: 40%;           /* shorter than full height */
-  width: 1px;
-  background-color: #808080;
-}
+// /* Add vertical divider using ::before */
+// .nav-box a:not(:first-child)::before {
+//   content: "";
+//   position: absolute;
+//   left: 0;
+//   top: 30%;              /* adjust to position vertically */
+//   height: 40%;           /* shorter than full height */
+//   width: 1px;
+//   background-color: #808080;
+// }
 
 // .nav-box a:hover {
 //   //color: #333;              /* darker grey on hover (optional) */
