@@ -245,12 +245,12 @@ header.site-header .site-title {
 .nav-box a::after {
   content: '';
   position: absolute;
-  bottom: 3px; /* space below text */
-  left: 50%;
+  bottom: 6px; /* space below text */
+  left: 0;
   transform: translateX(-50%) scaleX(0);
   transform-origin: center;
   width: 100%;
-  height: 2px;
+  height: 1px;
   background-color: #454545;
   transition: transform 0.3s ease;
 }
