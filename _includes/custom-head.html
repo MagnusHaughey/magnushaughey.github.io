@@ -32,9 +32,7 @@
   </style>
   {% endif %} -->
 
-
-<!-- White header font colour on all pages  -->
-
+{% if page.url == "/" %}
   <style>
       .site-nav a {
           color: white !important;
@@ -43,3 +41,15 @@
           color: white !important; /* White font color for home page */
       }
   </style>
+
+
+<!-- White header font colour on all pages  -->
+
+<!--   <style>
+      .site-nav a {
+          color: white !important;
+      }
+      .site-header a {
+          color: white !important; /* White font color for home page */
+      }
+  </style> -->
