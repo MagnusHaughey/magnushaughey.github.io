@@ -416,9 +416,10 @@ header.site-header .site-title {
 
 
 /* Apply to profile and publications URLs */
+body[data-url="/"]
 body[data-url="/profile/"],
 body[data-url="/publications/"], {
-  background-color: #2e2e2e;
+  background-color: black;
   color: #fff;
 }
 
