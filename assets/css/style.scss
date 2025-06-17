@@ -72,6 +72,7 @@ body {
     border-radius: 50px; /* Rounded corners */
     font-size: 1.2em;
     // background-image: linear-gradient(45deg, #ff7f50, #ff4500);
+    //transition: background-image 0.4s ease;
     // transition: background 0.3s ease, opacity 0.5s ease; /* Smooth transitions */
     // opacity: 0; /* Initially hidden */
     // position: relative; /* To position the ::before pseudo-element */
@@ -79,34 +80,17 @@ body {
     // cursor: pointer;
 }
 
-/* Hover effect for the button */
-.btn-publications:hover {
-    background-image: linear-gradient(45deg, #ff7f50, #ff4500); /* Gradient on hover */
-    //background-color: rgba(3 , 11 , 252 , 1); /* Darker blue on hover */
-    border-color: rgba(3 , 11 , 252 , 0); /* Change border color on hover */
-    text-decoration: none;
-    color: white; /* Button text color */
-    opacity: 1;
-}
-
-// .btn-publications::before {
-//   content: '';
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-image: linear-gradient(45deg, #ff7f50, #ff4500);
-//   background-size: cover;
-//   background-position: center;
-//   opacity: 0; /* Initially hidden */
-//   transition: opacity 0.5s ease; /* Smooth transition for the background */
-//   z-index: -1; /* Ensure the background stays behind the text */
+// /* Hover effect for the button */
+// .btn-publications:hover {
+//     background-image: linear-gradient(45deg, #ff7f50, #ff4500); /* Gradient on hover */
+//     //background-color: rgba(3 , 11 , 252 , 1); /* Darker blue on hover */
+//     border-color: rgba(3 , 11 , 252 , 0); /* Change border color on hover */
+//     text-decoration: none;
+//     color: white; /* Button text color */
+//     opacity: 1;
 // }
 
-// .btn-publications:hover::before {
-//   opacity: 1; /* Fade in the background on hover */
-// }
+
 
 
 /* Style for the box around the button */
@@ -118,6 +102,24 @@ body {
     border-radius: 50px; /* Rounded corners for the box */
     background-color: rgba(0 , 0 , 0 , 0); /* Light blue background */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0); /* Optional shadow for the box */
+}
+
+/* Pseudo-element for the gradient background */
+.button-box::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #ff7f50, #ff4500);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: -1; /* keep it behind the text */
+}
+
+/* Hover state triggers fade-in of the gradient */
+.button-box:hover::before {
+  opacity: 1;
 }
 
 
