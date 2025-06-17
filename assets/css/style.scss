@@ -19,7 +19,7 @@ body {
 /* Floating on LHS of home page for my name and title */
 .left-box {
     position: fixed; /* Keep the box fixed as you scroll */
-    border-radius: 5px;
+    border-radius: 30px;
     top: 20%; /* Adjust this to control the vertical position */
     left: 300px; /* Distance from the left edge */
     width: 400px; /* Width of the box */
@@ -115,7 +115,7 @@ body {
 /* Floating on RHS of home page for contact details */
 .contact-box {
     position: fixed; /* Keeps the box fixed in place when scrolling */
-    border-radius: 5px;
+    border-radius: 30px;
     top: 20%; /* Adjust this value to change vertical positioning */
     right: 325px; /* Distance from the right edge */
     width: 330px; /* Width of the contact box */
