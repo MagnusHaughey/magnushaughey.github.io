@@ -350,11 +350,10 @@ header.site-header .site-title {
     margin: 0 0 5px 0;
 }
 
-.publication-authors strong {
-    font-style: italic;
-    color: #fff5a6;
-    font-weight: 800;
-    margin: 0 0 5px 0;
+.highlight-author {
+  font-weight: 800;
+  color: #fff5a6;  /* Change to any highlight color you prefer */
+  font-style: italic;  /* Cancels italics if wrapped in <em> or *...* */
 }
 
 /* Style for the journal and year */
