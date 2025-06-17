@@ -7,10 +7,16 @@
   "minima/initialize";
 
 
+// Define global font
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+// Reserve scroll-bar on all pages, to avoid janky re-formatting when visiting some pages of the website
+html {
+  overflow-y: scroll;
+}
 
 
 
