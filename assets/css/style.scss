@@ -35,10 +35,12 @@ body {
 .left-box::before {
   content: "";
   position: absolute;
+  border-radius: 30px;
+  border: 0px solid #b5b5b5;
   top: 0; left: 0; right: 0; bottom: 0;
   background: url('/assets/images/website_black_background.png') center/cover no-repeat;
   opacity: 0.8; /* Adjust the image transparency here */
-  z-index: 500;
+  z-index: -1;
 }
 
 .left-box h3 {
