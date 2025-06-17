@@ -1,6 +1,6 @@
 ---
 title: "Hydrodynamics strongly affect the dynamics of colloidal gelation but not gel structure"
-authors: "Joost De Graaf, Wilson CK Poon, **Magnus Haughey**, Michiel Hermes"
+authors: "Joost De Graaf, Wilson CK Poon, Magnus Haughey, Michiel Hermes"
 journal: "Soft Matter"
 year: 2019
 doi: "https://doi.org/10.1039/C8SM01611A"
