@@ -24,8 +24,6 @@ body {
     left: 300px; /* Distance from the left edge */
     width: 370px; /* Width of the box */
     height: 180px;
-    //background-color: rgba(71, 71, 71 , 0.65); /* Background color */
-    //background: url('/assets/images/website_black_background.png') center/cover no-repeat;
     border: 1px solid #b5b5b5; /* Optional border */
     padding: 30px; /* Padding inside the box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0); /* Add a shadow for effect */
@@ -85,13 +83,13 @@ body {
     border-radius: 50px; /* Rounded corners for the box */
     background-color: rgba(0 , 0 , 0 , 0); /* Light blue background */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0); /* Optional shadow for the box */
+    text-decoration: none;
 }
 
 /* Pseudo-element for the gradient background */
 .button-box::before {
   content: "";
   position: absolute;
-  // top: 0; left: 0;
   width: 200px; /* Set the width of the box */
   height: 30px; /* Set the height of the box */
   border: 0px solid white; /* Box border */
@@ -105,6 +103,7 @@ body {
 /* Hover state triggers fade-in of the gradient */
 .button-box:hover::before {
   opacity: 1;
+  text-decoration: none;
 }
 
 
@@ -162,6 +161,9 @@ body {
 /* ---------------------------------------------------------------------------------- */
 
 
+
+
+
 /* Formatting fonts on home page */
 .home {
     color: white; /* Makes text white on the homepage */
@@ -183,34 +185,21 @@ header.site-header .site-title {
 
 .site-header {
   margin-top: 10px; /* or try 1rem, adjust as needed */
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+
+.site-title {
+  white-space: nowrap;
 }
 
 
 
-/* Make the site title white on the homepage only */
-// .home .wrapper a {
-//     color: white !important;
-// }
 
-// body.home .site-nav a:hover {
-//     color: #f0f0f0; /* Change to a lighter shade of white or another color */
-// }
+/* ---------------------------------------------------------------------------------- */
 
-/* Change the background color of the navigation bar */
-// .site-header {
-//     background-color: rgba(207, 207, 207 , 0.4); /* Replace #333 with the color of your choice */
-//     border: none !important; /* Remove any borders on the site header */
-//     border-bottom: none !important; /* Specifically remove the bottom border */
-// }
-.site-header {
-	background: none;
-	border: none;
-	box-shadow: none;
-}
-
-// .site-header .site-nav a {
-//     color: #3d3d3d; /* Change link text color */
-// }
 
 
 
@@ -218,7 +207,8 @@ header.site-header .site-title {
   display: flex;
   align-items: center;
   padding: 0px 30px 0px 30px;
-  //border: 2px inset #ccc;
+  margin-left: 3rem; /* control spacing here */
+  gap: 1.2rem;
   border-radius: 30px;
   background: linear-gradient(135deg, #e6f1f5, #9db7c2);
 }
@@ -228,31 +218,9 @@ header.site-header .site-title {
   display: inline-block;
   color: #454545;
   text-decoration: none;    /* no underline by default */
-  //margin: 0 12.5px;
   transition: color 0.3s, text-decoration 0.3s;
-  //padding: 0px 0px 0px 20px;         /* spacing around each link */
-  // border-left: 1px solid #404040;
 }
 
-// .nav-box a:last-child {
-//   padding-right: 20px; /* Adjust value as needed */
-// }
-
-// /* Add vertical divider using ::before */
-// .nav-box a:not(:first-child)::before {
-//   content: "";
-//   position: absolute;
-//   left: 0;
-//   top: 30%;              /* adjust to position vertically */
-//   height: 40%;           /* shorter than full height */
-//   width: 1px;
-//   background-color: #808080;
-// }
-
-// .nav-box a:hover {
-//   //color: #333;              /* darker grey on hover (optional) */
-//   text-decoration: underline;
-// }
 
 .nav-box a::after {
   content: '';
@@ -286,23 +254,6 @@ header.site-header .site-title {
   flex-wrap: nowrap;
   width: 100%;
 }
-
-.nav-box {
-  margin-left: 3rem; /* control spacing here */
-  display: flex;
-  gap: 1.2rem;
-}
-
-.site-title {
-  white-space: nowrap;
-}
-
-
-
-
-
-
-
 
 
 
