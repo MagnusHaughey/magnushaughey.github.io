@@ -1,5 +1,5 @@
 ---
-title: "Computational Spatial Modeling of Extrachromosomal DNA to Decipher Cancer Evolution (book chapter)"
+title: "Computational Spatial Modeling of Extrachromosomal DNA to Decipher Cancer Evolution"
 authors: '<span class="highlight-author">Magnus Haughey<sup>*</sup></span> & Imran Noorani<sup>*</sup>'
 journal: "Computational Neuroscience"
 year: 2026
